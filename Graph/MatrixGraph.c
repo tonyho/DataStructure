@@ -90,7 +90,7 @@ void DisplayMatrixGraph(const MatrixGraph *N){
     for(j=0; j<N->VertexNumber; j++){
         for(i=0; i<N->VertexNumber; i++){
             if(i == 0){
-                printf("%s\t",N->vex[i]);
+                printf("%s\t",N->vex[j]);
             }
             printf("%d\t",N->adj[i][j].adj);
         }
